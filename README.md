@@ -1,12 +1,12 @@
 # Counter-Strike 1.6 Egg
 
-This repository contains a game-server egg definition for running a Linux
-Counter-Strike 1.6 dedicated server. Its description targets ReHLDS and it can
-install ReHLDS, MetaMod-R, AMX Mod X, ReGameDLL_CS, ReAPI, and ReUnion.
+This repository contains a Pelican egg for running a Linux Counter-Strike 1.6
+dedicated server. Its description targets ReHLDS and it can install ReHLDS,
+MetaMod-R, AMX Mod X, ReGameDLL_CS, ReAPI, and ReUnion.
 
 ## Repository contents
 
-- [`egg-counter-strike16.json`](./egg-counter-strike16.json) — the panel egg
+- [`egg-counter-strike16.json`](./egg-counter-strike16.json) — the Pelican egg
   export, including its install script, startup command, settings, and embedded
   icon.
 
@@ -58,7 +58,7 @@ player limit.
 
 ## Use
 
-1. Import `egg-counter-strike16.json` into your game-server panel as an egg.
+1. Import `egg-counter-strike16.json` into Pelican as an egg.
 2. Create a server using this egg and assign its game port.
 3. Set the egg variables as needed, especially the branch, map, player limit,
    and optional modules.
