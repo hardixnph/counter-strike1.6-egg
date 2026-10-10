@@ -22,7 +22,7 @@
     },
     "file_denylist": [],
     "startup_commands": {
-        "Default": "TZ=${TZ_DATE} ./hlds_run -console -game ${HLDS_GAME} -port ${SERVER_PORT} -sport 26900 +sys_ticrate ${SYS_TICRATE} -pingboost 3 +map ${MAP} +ip 0.0.0.0 +maxplayers ${MAXPLAYERS} -heapsize 1048576 -num_edicts 4096 -master -zone 8192"
+        "Default": "TZ=${TZ_DATE} ./hlds_run -console -game ${HLDS_GAME} -port ${SERVER_PORT} -sport 26900 +sys_ticrate ${SYS_TICRATE} -pingboost 3 +map ${MAP} +ip 0.0.0.0 +maxplayers ${MAXPLAYERS} -heapsize 1048576 -num_edicts 4096 -master -zone 8192 -norestart"
     },
     "config": {
         "files": "{\n    \"cstrike/server.cfg\": {\n        \"parser\": \"file\",\n        \"find\": {\n            \"sv_downloadurl\": \"sv_downloadurl \\\"http://fastdl.baroy.net/{{env.P_SERVER_UUID}}/cstrike/\\\"\",\n            \"sv_allowdownload\": \"sv_allowdownload \\\"1\\\"\",\n            \"sv_allowupload\": \"sv_allowupload \\\"0\\\"\"\n        }\n    }\n}",
